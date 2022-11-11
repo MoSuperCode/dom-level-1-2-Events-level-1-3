@@ -1,0 +1,58 @@
+ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    background-color: #333;
+    display: flex;
+    justify-content: space-between;
+}
+
+.listContainer {
+    display: flex;
+}
+
+li a {
+    display: block;
+    color: white;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+}
+
+li a:hover:not(.active) {
+    background-color: #111;
+}
+
+.active {
+    background-color: #4CAF50;
+}
+
+.active:hover {
+    cursor: pointer;
+}
+
+.pens {
+    background-color: #f6c89f;
+    color: #333;
+    transform: rotate(180deg);
+    border: #111 solid 0.1px;
+}
+
+.kaka {
+    background-color: #ffe7d1;
+    color: #333;
+
+}
+
+.kiki {
+    background-color: #4b8e8d;
+    color: #333;
+    transform: rotate(180deg);
+}
+
+.lachs {
+    background-color: rgb(173, 60, 60);
+    color: rgb(220, 220, 220);
+    transform: rotate(175deg);
+}
